@@ -1,9 +1,7 @@
 name: Publish to PyPI
 
+# Automatic triggers paused at the owner's request on 2026-10-17.
 on:
-  push:
-    tags:
-      - "v*.*.*"
   workflow_dispatch:
 
 jobs:
